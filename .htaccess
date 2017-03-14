@@ -1,5 +1,13 @@
+ AuthType Basic
+ AuthName "protected"
+ AuthUserFile C:\xampp\htdocs\kta16e\.htpasswd
+ Require valid-user
+
 <files "*.txt">
 
 deny from all
 
 </files>
+
+# www.htaccesstools.com
+# user:$apr1$Kg5aIj4r$A6aTf7MnQ8mVwODgqqb7x0
