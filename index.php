@@ -1,24 +1,7 @@
 
 <meta charset = "utf-8">
 
-<script type="text/javascript">
-    window.onload =function (){
-        (function(){
-        var date = new Date();
-        //paneme aja õigel kujul kokku
-        var time = date.getHours() + ':' 
-        + date.getMinutes()+ ':'
-        + date.getSeconds();
-        //otsime lehelt esimese div tag'i
-        document.getElementsByTagName('div')
-        [0].innerHTML = "Aeg JS'is: " + time;
-        window.setTimeout(arguments.callee,1000);
-        })();
-        
-    }
-        
-        
-</script>
+<script type= "text/javascript" src = "script.js">  </script>  
 
 <?php
 require 'components.php';
